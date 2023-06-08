@@ -8,10 +8,10 @@ const MainNavigation = () => {
             <nav>
                 <ul className={classes.list}>
                     <li>
-                        <NavLink end className={setActiveLink} to='/'>Home</NavLink>
+                        <NavLink end className={setActiveLink} to=''>Home</NavLink>
                     </li>
                     <li>
-                        <NavLink end className={setActiveLink} to='/products'>Products</NavLink>
+                        <NavLink end className={setActiveLink} to='products'>Products</NavLink>
                     </li>
                 </ul>
             </nav>
